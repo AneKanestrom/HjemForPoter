@@ -1,1 +1,45 @@
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tittel{
+    color: blue;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    color: blue;
+}
+
+.navbar-item-2{
+    margin-left: auto;
+}
+
+section{
+    border: 1px solid black;
+    max-width: 100ch;
+    margin: 0px auto;
+}
+
+h3{
+    color: blue;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li{
+    margin-left: 10%;
+    margin-right: 10%;
+}
