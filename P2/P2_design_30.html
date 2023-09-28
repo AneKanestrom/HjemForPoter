@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 id ="tittel">
+            P1 prosjektkrav
+        </h1>
+        <navbar class ="navbar">
+            <h4>Hennie, Swati, Ane, Guro, Kim-Iver, Anne Line</h4>
+            <h4 class="navbar-item-2">21.09.2023</h4>  
+        </navbar>
+    </header>
+
+    <section>
+        <h2>Administrative detaljer</h2>
+        <p>Klients navn: HjemForPoter</p>
+        <p>Nettside navn: HjemForPoter</p>
+    </section>
+
+    <section>
+        <h2>Mål og brukergruppe</h2>
+        <p>Målet med nettsiden er å skape en digital plattform dedikert til å lette prosessen med å adoptere hunder,
+            samtidig som den sprer bevissthet om dyrevelferd og fremmer en god sak. Den har som formål å forandre liv,
+            både for de firbeinte vennene som søker et kjærlig hjem og for potensielle adoptører som ønsker
+            å gi en sjanse til hunder i nød. Nettsiden er siktet til voksne og familier som er interessert i 
+            å adoptere.  Vi er sterkt engasjert i dyrevelferd, og vi ønsker å spre dette budskapet til så mange 
+            som mulig. Nettsiden vil være et sted hvor besøkende kan lære om betydningen av dyrevelferd 
+            og hvordan adopsjon positivt påvirker livene til forlatte hunder. Vi vil også oppmuntre besøkende 
+            til å donere til og engasjere seg med dyrevernorganisasjoner.
+        </p>
+        
+    </section>
+    
+
+    <section class = "navStructure">
+        <p>
+            Under er diagrammet vi lagde for å vise nettsidens struktur, 
+            som viser hvordan de ulike sidene er linket sammen
+        </p>
+
+        <img src = "" />
+
+        <p>
+            Vi vil kunne navigere oss fra en side til en annen gjennom nav-baren, som vi vil skrive som en javaScript funksjon. 
+            Hver side vil nå de andre sidene i sitt nivå direkte gjennom nav-baren, slik at det vil være lett å komme seg fra én side til en annen. 
+            Dog n Page har også en navbar på sin side, 
+            men vil ikke nås direkte fra de andre sidene da den ikke ligger i nav-baren. Den vil heller nås fra Dogs siden. 
+            Vi har valgt denne type strukturen fordi den er oversiktlig, slik at brukeren finner enkelt frem til den informasjonen den trenger, 
+            og lett kan nå de andre sidene. Nav-baren ligger øverst på alle sidene våre, og er dermed lett tilgjengelig. 
+        </p>
+        
+    </section>
+
+    
+
+        
+    
+    <h2> 5. layout nettside</h2>
+    
+    
+    <h3>Font</h3>
+    <ul>
+        <li>overskrifter: Roboto</li>
+        <li> tekst: Roboto </li>
+    </ul>
+    <h3>Skriftstørrelse</h3>
+    <ul>
+        <li>overskrifter: 35pt</li>
+        <li>Navigasjonsbar: 17pt</li>
+        <li>Body: 12pt</li>
+    </ul>
+    <h3>Fargebruk</h3>
+    <ul>
+        <li>Tekst: 0000</li>
+        <li>Bakgrunn: f4f4ed </li>
+        <li>Navigation/footer: 023047</li>
+        <li>"links" på footer: 219ebc</li>
+        <li>pynt og diverse: fb8500</li>
+        <li>Noen bakgrunner for design: 8ecae6</li>
+    </ul>
+        
+    
+
+    <h2> 6. Innhold </h2> 
+    
+    <h3>Hjemmeside</h3>
+    <p>
+        Dette er den første siden. Den vil inneholde navnet på organisasjonen, 
+        en kort introduksjon om bedriften, introdusere informasjon om adopsjonsprosessen 
+        og bilder av de nyeste hundene som er tilgjengelige for adopsjon.
+    </p>
+    <img src = "./bilder/Homepage.png"/>
+    <img src = "./bilder/Homepage2.png">
+   
+    <h3>Nav-bar</h3>
+    <p>
+        Navigasjonsmenyen vil være tilgjengelig på alle sidene. 
+        Den vil inkludere et logo med en lenke til hjemmesiden og 
+        tre andre lenker: hunder, om oss og doner.
+    </p>
+    <img src="./bilder/Navbar.png" />
+
+    <h3>Footer</h3>
+    <p>
+        Dette vil også være tilgjengelig på alle sidene. 
+        Bunnteksten vil inkludere kontaktopplysninger som e-postadresse, 
+        telefonnummer og adresse, samt en mulig lenke til sosiale medier som 
+        Facebook-side, Instagram og LinkedIn.
+    </p>
+    <img src="./bilder/Footer.png"/>
+
+    <h3>Om oss</h3>
+    <p>
+        Dette vil også være tilgjengelig på alle sidene. Bunnteksten vil
+        inkludere kontaktopplysninger som e-postadresse, telefonnummer og
+        adresse, samt en mulig lenke til sosiale medier som Facebook-side,
+        Instagram og LinkedIn. Her kan man få informasjon om hjemforpoter,
+        hva man driver med, samt historie.
+
+    </p>
+    <img src="./bilder/Om-oss.png"/>
+
+    <h3>Doner</h3>
+    <p>
+        Denne siden vil ha informasjon om hva donasjonen gjør for organisasjonen. 
+        Den vil inkludere Vipps-nummer og kontonummer. Vi har også en illustrasjon 
+        som viser hvor mye penger kan bety for organisasjonen.
+    </p>
+    <img src="./bilder/Doner1.png" />
+    <img src="./bilder/Doner2.png" />
+
+    <h3>Alle Hunder</h3>
+    <p>
+        Denne siden vil først ha generell informasjon om hvilke hunder vi har, hvordan 
+        de bor, og lignende. Disse sidene vil hjelpe oss med å oppnå målet om å informere 
+        og gi leseren tillit til oss som organisasjon. Videre vil denne siden ha et bilde 
+        av alle hundene som er til adopsjon. Disse bør ha en “link” på bildet som gir mer 
+        informasjon om hver enkelt hund.
+    </p>
+    <img src="./bilder/Alle hunder.png" />
+    <img src="./bilder/Alle hunder2.png" />
+
+    <h3>Én hund</h3>
+    <p>
+        Dette er siden der vi viser informasjon om en spesifikk hund. Den vil inkludere bilder, 
+        informasjon som kjønn, rase og alder. Den vil også inkludere en knapp til søknadsskjema 
+        for adopsjon. trykker du på den, vil søknad dukke opp nederst på siden.
+    </p>
+    <img src="./bilder/En hund.png" />
+    <img src="./bilder/En hund2.png" />
+    <img src="./bilder/En hund3.png" />
+
+
+    <h2>Minstekrav</h2>
+    <ul>
+        <li>Nav-bar </li>
+
+        <li>
+            Vi vil kunne navigere oss fra en side til en annen gjennom navbaren, 
+            om vi vil skrive som en javaScript funksjon. Dette har vi gjort for å 
+            unngå å gjenta kode på resten av sidene, i tillegg til at det vil være 
+            enklere å vedlikeholde ved behov.
+        </li>
+
+        <li>
+            Når du trykker på en hund så kommer du til en annen side med mer informasjon om hunden.
+        </li>
+
+        <li>
+            Adopterfunksjon: Når man trykker på adopterknappen under om hunden, så vil man få opp et 
+            skjema hvor man kan fylle inn informasjon. 
+        </li>
+        <li>
+            Når musen blir holdt over en av feltene i nav-baren, endres farger
+        </li>
+    </ul>
+
+    <h2>Plan</h2>
+    <h3>To-do liste</h3>
+    <ul>
+        <li>Implementer en funksjon som lager en hundkomponent/hundkort (refererer til f.eks buster i powerpointen). 
+            Et kort som viser info om hunden</li>
+        <li>Implementer en funksjon for navbar</li>
+        <li>Implementer en funksjon for footer</li>
+    </ul>
+
+
+    <h2>Liste over filer og mapper</h2>
+    <ul>JS</ul>
+        <li>navbar.js</li>
+        <li>footer.js</li>
+        <li>dogComponent.js</li>
+    <ul>CSS</ul>
+    <ul>Img</ul>
+    <ul>HTML</ul>
+        <li>HomePage.html</li>
+        <li>Dogs.html</li>
+        <li>AboutUs.html</li>
+        <li>Donate.html</li>
+        <li>DogNPage.html</li>
+        
+</html>
+
+
