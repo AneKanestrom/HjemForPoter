@@ -2,7 +2,7 @@
 
 &nbsp;
 
-## :bulb:Opprette en **branch**
+## :bulb: Opprette en **branch**
 - Branches kan opprettes direkte fra et issue (husk da å ha *List* format) eller via Repository/Branches
 - Navn på branchen: 
     > *#issue-id + navnet på issue med bindestrek mellom ordene 
@@ -11,12 +11,13 @@
 
 &nbsp;
 
-## :bulb:Commit meldinger: 
+## :bulb: Commit meldinger: 
 > *#issue-id + melding på norsk*
+
 
 &nbsp;
 
-## :bulb:Merge Requests
+## :bulb: Merge Requests
 - Gjøres alltid felles
 
 
@@ -26,7 +27,7 @@
 &nbsp;
 
 
-## :nerd_face:Git Kommandoer
+## :nerd_face: Git Kommandoer
 
 &nbsp;
 
