@@ -1,1 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: beige;
+        padding: 0%;
+      }
 
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        background: #00008b;
+        width: 100%;
+        height: 10%;
+        align-items: center;
+        color: white;
+        margin-left: 0%;
+        margin-top: 0%;
+      }
+
+      .navbar--image {
+        padding: 2%;
+        width: 5%;
+      }
+      .navbar--omOss {
+        margin-left: auto;
+        margin-right: 2%;
+      }
+
+      .navbar--donere,
+      .navbar--hunder {
+        margin-right: 2%;
+      }
+
+      .finnDinNyeBestevenn {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        max-width: 80%;
+      }
+
+      .homepage--mainImage {
+        width: 20%;
+        margin-left: 2%;
+        margin-bottom: 5%;
+      }
+      .homepage--information {
+        margin-left: 10%;
+        line-height: 2rem;
+      }
+      .homepage--information > h2 {
+        margin-top: 0%;
+      }
+
+      /*Under er stylinga av det andre homepage bildet*/
+
+      .cardSection {
+        margin-top: 0%;
+        background: lightblue;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #cardSectionHeader {
+        margin-top: 2%;
+        text-align: center;
+      }
+
+      #orangeText {
+        color: orange;
+      }
+      .cardHolder {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .cardHolder--dog-1 {
+        display: flex;
+        flex-direction: column;
+        border: 0.1rem solid black;
+        border-radius: 1rem;
+        width: 12%;
+        text-justify: center;
+        margin-left: 10%;
+        background: white;
+      }
+
+      #cardCircle--dog-1 {
+        border: 0.1rem solid orange;
+        width: 20%;
+        height: 20%;
+        text-align: center;
+        border-radius: 50%;
+        margin-bottom: 0%;
+        margin-left: 40%;
+      }
+      .cardSection--cardHeader {
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+      }
+      .cardSection--cardText {
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="../images/buster.png" class="navbar--image" />
+      <h2 class="navbar--omOss">OM OSS</h2>
+      <h2 class="navbar--hunder">HUNDER</h2>
+      <h2 class="navbar--donere">DONERE</h2>
+    </div>
+
+    <div class="finnDinNyeBestevenn">
+      <img src="../images/buster.png" class="homepage--mainImage" />
+      <div class="homepage--information">
+        <h2>Finn din nye bestevenn</h2>
+        <h4>Informasjon om HjemForPoter</h4>
+        <p1
+          >In on announcing if of comparison pianoforte projection. Maids hoped
+          gay yet bed asked blind dried point. On abroad danger likely regret
+          twenty edward do. Too horrible consider followed may differed age. An
+          rest if more five mr of. Age just her rank met down way. Attended
+          required so in cheerful an. Domestic replying she resolved him for
+          did. Rather in lasted no within no. Are sentiments apartments
+          decisively the especially alteration. Thrown shy denote ten ladies
+          though ask saw. Or by to he going think order event music. Incommode
+          so intention defective at convinced. Led income months itself and
+          houses you. After nor you leave might share court.
+        </p1>
+      </div>
+    </div>
+
+    <div class="cardSection">
+      <h1 id="cardSectionHeader">
+        Adopsjonsprossesen på <span id="orangeText">1-2-3</span>
+      </h1>
+      <div class="cardHolder">
+        <div class="cardHolder--dog-1">
+          <h4 id="cardCircle--dog-1">1</h4>
+          <h5 class="cardSection--cardHeader">Steg 1:</h5>
+          <p1 class="cardSection--cardText">
+            Education remainder in so cordially. His remainder and own dejection
+            daughters sportsmen. In on announcing if of comparison pianoforte
+            projection.
+          </p1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
