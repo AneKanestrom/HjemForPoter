@@ -1,3 +1,13 @@
+# TODO
+
+- Legg til i starten av alle html body
+```
+    <div id="navbar"></div> 
+    <script src="../JS/nav.js"> </script> 
+```
+
+
+
 # Standarder for utviklingsprosjektet HjemForPoter :dog:
 
 &nbsp;
