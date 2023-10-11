@@ -12,6 +12,13 @@
 
 &nbsp;
 
+## Skjekke om man er koblet til GitLab
+- git remote -v
+
+## Logge inn på git (koble sammen GitLab og VSCode)
+- git config --global user.email "you@example.com"
+- git config --global user.name "Your Name"
+
 ## :bulb: Opprette en **branch**
 - Branches kan opprettes direkte fra et issue (husk da å ha *List* format) eller via Repository/Branches
 - Navn på branchen: 
