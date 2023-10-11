@@ -1,16 +1,16 @@
  /* navbar styling */
 
  .logo img {
-    height: 5vh; 
+    height: 8vh; 
     width: auto;
-    padding: 2.75vh;
+    padding: 1.3vh;
     background-color: #023047;
     
 }
 
 #desktop-nav {
     display: flex; 
-    height: 10vh; 
+    height: 10.1vh; 
     justify-content: space-between; 
     align-items: center; 
     background-color: #023047;
@@ -33,4 +33,15 @@
 
 .nav-links a:hover {
     background-color: #219ebc;
+}
+
+/* HAMBURTGER NAV */
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
 }
