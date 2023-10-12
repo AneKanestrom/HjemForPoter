@@ -36,11 +36,11 @@ article {
   justify-content: space-between;
 }
 
-/* ABOUT US*/
+/* ABOUT US*/ 
 body {
-  background-color: #f4f4ed;
-  font-family: "Roboto", sans-serif;
-  text-align: left;
+    background-color: #f4f4ed;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
 }
 .container {
   width: 1000px;
@@ -60,8 +60,8 @@ h1 {
   text-align: left;
 }
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* DOG-N PAGE*/
