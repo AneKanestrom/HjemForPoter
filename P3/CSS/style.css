@@ -24,6 +24,8 @@ html {
 
 h1 {
   font-size: 35pt;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h1,
@@ -37,19 +39,10 @@ article {
 }
 
 /* ABOUT US*/ 
-body {
-    background-color: #f4f4ed;
-    font-family: "Roboto", sans-serif;
-    text-align: left;
-}
 .container {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
-}
-h1 {
-  text-align: center;
-  text-transform: uppercase;
 }
 .content {
   display: flex;
@@ -59,7 +52,7 @@ h1 {
   padding: 20px;
   text-align: left;
 }
-img {
+.aboutusbilder {
     max-width: 100%;
     height: auto;
 }
