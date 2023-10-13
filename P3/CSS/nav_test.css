@@ -3,17 +3,21 @@
  .logo img {
     height: 8vh; 
     width: auto;
-    padding: 1.3vh;
+    padding: 1vh;
     background-color: #023047;
+    position: fixed;
+    top: 0;
     
 }
 
 .desktop-nav {
     display: flex; 
-    height: 10.1vh; 
+    height: 10vh; 
+    width: 100%;
     justify-content: space-between; 
     align-items: center; 
     background-color: #023047;
+    position: fixed;
 }
 
 .nav-links {
@@ -22,6 +26,7 @@
     list-style-type: none;
     padding: 2vh;
     background-color: #023047;
+    position: ;
 }
 
 .nav-links a {
@@ -43,10 +48,12 @@
 }
 
 
-@media (max-width: 650px) {
-    .nav-links a {
-        position: flex;
+@media (max-width: 650) {
+    .nav-links {
+        position: fixed;
+        top: 10vh;
         background-color: #023047;
         width: 100%;
     }
 }
+
