@@ -11,6 +11,7 @@ body {
   margin: auto;
   text-align: center;
   background-color: #f4f4ed;
+  padding-top: 10vh;
 }
 
 header {
@@ -37,6 +38,10 @@ article {
   display: flex;
   justify-content: space-between;
 }
+
+/* NAV*/ 
+
+/* HAMBURGER NAV*/ 
 
 /* ABOUT US*/ 
 .container {
