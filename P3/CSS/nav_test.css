@@ -3,14 +3,14 @@
  .logo img {
     height: 8vh; 
     width: auto;
-    padding: 1vh;
+    padding-top: 1vh;
     background-color: #023047;
     position: fixed;
     top: 0;
-    
 }
 
 .desktop-nav {
+    top:0;
     display: flex; 
     height: 10vh; 
     width: 100%;
@@ -26,7 +26,6 @@
     list-style-type: none;
     padding: 2vh;
     background-color: #023047;
-    position: ;
 }
 
 .nav-links a {
@@ -48,8 +47,8 @@
 }
 
 
-@media (max-width: 650) {
-    .nav-links {
+@media only screen and (max-width: 700) {
+    .nav-links a {
         position: fixed;
         top: 10vh;
         background-color: #023047;
