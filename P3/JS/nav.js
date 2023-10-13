@@ -18,15 +18,5 @@ function addNavbar() {
     navbar.innerHTML = navcode;
 }
 
-window.onload = addNavbar();
-
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
-
+const navE1 = document.querySelector('.nav-links')
+const hamburgerE1 = document.querySelector('.hamburger')
