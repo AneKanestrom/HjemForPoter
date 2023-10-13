@@ -3,31 +3,25 @@
  .logo img {
     height: 8vh; 
     width: auto;
-    padding: 1.3vh;
-    background-color: #023047;
-    
+    padding-top: 1vh;
 }
 
 .desktop-nav {
     display: flex; 
-    height: 10.1vh; 
-    justify-content: space-between; 
+    height: 10vh; 
     align-items: center; 
     background-color: #023047;
 }
 
 .nav-links {
     display: flex;
-    gap: 4vh;
     list-style-type: none;
-    padding: 2vh;
     background-color: #023047;
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
-    padding: 1vh;
     background-color: #023047;
 }
 
@@ -40,13 +34,74 @@
 
 .hamburger {
     display: none;
+    cursor: pointer;
 }
 
+.bar {
+    display: flex;
+    width: 27px;
+    height: 2px;
+    background-color: white;
+    margin: 1vh 5vh;
+    
+}
 
-@media (max-width: 650px) {
-    .nav-links a {
-        position: flex;
-        background-color: #023047;
-        width: 100%;
+@media (orientation: landscape) {
+    .nav-links {
+        flex-direction: row;
+        gap: 5vh;
+        margin: 2vh;
+        padding-right: 3vh;
     }
-}
+    
+    .nav-links a {
+        padding: 1vh;
+    }
+
+    .desktop-nav {
+        width: 100%;
+        justify-content: space-between; 
+    }
+    .nav-element {
+        display: block;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    body {
+        max-width: 100%;
+    }
+    .nav-links {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    .desktop-nav {
+        justify-content: space-between;
+    }
+
+    .nav-links li {
+        margin: 2vh;
+        justify-content: space-around;
+    
+        
+    }
+
+    .nav-links a {
+        padding: 1vh;
+    }
+
+    .hamburger {
+        display: block;
+        margin: 0;
+    }
+
+    .nav-element {
+        display: none;
+    }
+
+  }
