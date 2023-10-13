@@ -15,11 +15,20 @@
             text-align: justify;
         }
 
-        .dog-box-bilde{
+        .dog-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    } 
+
+
+
+    .dog-box-bilde{
         width: 130px;
         height: 150px;
         object-fit: cover;
-        }
+    } 
     </style>
 
 </head>
@@ -37,8 +46,9 @@
     
     </section>
     
-
-    <div class="dog-box">
+    <div id="dog-container"></div> 
+    <script src="../JS/createDogBox.js"> </script> 
+    <!-- <div class="dog-box">
         <img src="../images/dog1.0.jpeg" class="dog-box-bilde" alt="Buster">
         <h3>Buster</h3>
         <p>Kjønn:</p>
@@ -60,7 +70,7 @@
         <p>Kjønn:</p>
         <p>Alder:</p>
         <p>Rase:</p>
-    </div>
+    </div> -->
 
 </body>
 </html>
