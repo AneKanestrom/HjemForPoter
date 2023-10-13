@@ -52,9 +52,8 @@
         gap: 5vh;
         margin: 2vh;
         padding-right: 3vh;
-
     }
-
+    
     .nav-links a {
         padding: 1vh;
     }
@@ -62,6 +61,9 @@
     .desktop-nav {
         width: 100%;
         justify-content: space-between; 
+    }
+    .nav-element {
+        display: block;
     }
   }
   
@@ -74,6 +76,7 @@
         justify-content: center;
         position: absolute;
         top: 0;
+        right: 0;
     }
 
 
