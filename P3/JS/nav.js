@@ -18,5 +18,3 @@ function addNavbar() {
     navbar.innerHTML = navcode;
 }
 
-const navE1 = document.querySelector('.nav-links')
-const hamburgerE1 = document.querySelector('.hamburger')

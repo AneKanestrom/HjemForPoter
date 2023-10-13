@@ -6,7 +6,6 @@
     <title>Navigation bar</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/nav_test.css">
-    <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="../images/logo_rund.png" >
 
 </head>
@@ -21,24 +20,21 @@
         </div>
         <div >
             <ul class="nav-links">
-                <li>
+                <li onclick="toggle()">
                     <div class="hamburger">
                         <div class="bar"></div>
                         <div class="bar"></div>
                         <div class="bar"></div>
                     </div>
                 </li>
-                <li> <a href="AboutUs.html">OM OSS</a></li>
-                <li> <a href="Dogs.html">HUNDER</a></li>
-                <li> <a href="Donate.html">DONER</a></li>
+                <li class="nav-element"> <a href="AboutUs.html">OM OSS</a></li>
+                <li class="nav-element"> <a href="Dogs.html">HUNDER</a></li>
+                <li class="nav-element"> <a href="Donate.html">DONER</a></li>
             </ul>
         </div>
-
-
-        
     </nav>
 
-
+    <script src="../JS/hamburger.js"> </script> 
 </body>
 </html>
 

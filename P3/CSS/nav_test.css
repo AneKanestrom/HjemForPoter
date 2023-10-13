@@ -66,11 +66,16 @@
   }
   
   @media (orientation: portrait) {
+    body {
+        max-width: 100%;
+    }
     .nav-links {
         flex-direction: column;
         justify-content: center;
-        margin-top: 20vh;
+        position: absolute;
+        top: 0;
     }
+
 
     .desktop-nav {
         justify-content: space-between;
@@ -79,6 +84,8 @@
     .nav-links li {
         margin: 2vh;
         justify-content: space-around;
+    
+        
     }
 
     .nav-links a {
@@ -88,8 +95,10 @@
     .hamburger {
         display: block;
         margin: 0;
-    
     }
 
-    
+    .nav-element {
+        display: none;
+    }
+
   }
