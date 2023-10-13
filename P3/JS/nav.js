@@ -20,16 +20,8 @@ function addNavbar() {
 
 window.onload = addNavbar();
 
-
-function toggleMenu() {
-    const menu= document.querySelector(".menu-links");
-    const icon= document.querySelector(".hamburger-icon");
-    menu.classList.toggle("open");
-    icon.classList.toggle("open");
-}
-
 const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-links");
+const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -37,3 +29,4 @@ function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 }
+
