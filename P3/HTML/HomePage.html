@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css" />
     <style>
       body {
         background-color: beige;
@@ -19,7 +19,7 @@
       }
 
       .homepage--mainImage {
-        width: 20%;
+        width: 30%;
         margin-left: 2%;
         margin-bottom: 5%;
       }
@@ -48,12 +48,12 @@
       #orangeText {
         color: orange;
       }
-      .cardHolder {
+      #homepage--cardOrganizer {
         display: flex;
         flex-direction: row;
       }
 
-      .cardHolder--dog {
+      .cardHolder--informationProcess {
         display: flex;
         flex-direction: column;
         border: 0.1rem solid black;
@@ -66,91 +66,56 @@
         margin-top: 3%;
       }
 
-      #cardSection--circle {
+      .cardSection--circle {
         border: 0.1rem solid orange;
         width: 20%;
         height: 20%;
         text-align: center;
         border-radius: 50%;
-        margin-bottom: 0%;
-        margin-left: 40%;
+        margin: auto;
+        margin-top: 5%;
       }
       .cardSection--cardHeader {
-        margin-top: 10%;
-        margin-left: 10%;
-        margin-bottom: 0%;
+        margin-top: 5%;
       }
       .cardSection--cardText {
-        margin-bottom: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 5% 10% 10% 10%;
       }
-
-
-      /*Style of the footer here*/
-
     </style>
   </head>
   <body>
-
     <div class="finnDinNyeBestevenn">
-      <img src="../images/buster.png" class="homepage--mainImage" />
+      <img src="../images/dog_homepage.jpeg" class="homepage--mainImage" />
       <div class="homepage--information">
         <h2>Finn din nye bestevenn</h2>
         <h4>Informasjon om HjemForPoter</h4>
         <p1>
           In on announcing if of comparison pianoforte projection. Maids hoped
           gay yet bed asked blind dried point. On abroad danger likely regret
-          twenty edward do. Too horrible consider followed may differed age. An
-          rest if more five mr of. Age just her rank met down way. Attended
+          twenty edward do. Too horrible consider followed may differed age.
+
+          An rest if more five mr of. Age just her rank met down way. Attended
           required so in cheerful an. Domestic replying she resolved him for
-          did. Rather in lasted no within no. Are sentiments apartments
-          decisively the especially alteration. Thrown shy denote ten ladies
-          though ask saw. Or by to he going think order event music. Incommode
+          did. Rather in lasted no within no. 
+          
+          Are sentiments apartments decisively the especially alteration.
+          Thrown shy denote ten ladies though ask saw. 
+          
+          Or by to he going think order event music. Incommode
           so intention defective at convinced. Led income months itself and
           houses you. After nor you leave might share court.
         </p1>
       </div>
     </div>
 
-
     <div class="cardSection">
       <h1 id="cardSectionHeader">
         Adopsjonsprossesen på <span id="orangeText">1-2-3</span>
       </h1>
-      <div class="cardHolder">
-        <div class="cardHolder--dog">
-          <h4 id="cardSection--circle">1</h4>
-          <h5 class="cardSection--cardHeader">Steg 1:</h5>
-          <p1 class="cardSection--cardText">
-            Education remainder in so cordially. His remainder and own dejection
-            daughters sportsmen. In on announcing if of comparison pianoforte
-            projection.
-          </p1>
-        </div>
-        <div class="cardHolder--dog">
-          <h4 id="cardSection--circle">2</h4>
-          <h5 class="cardSection--cardHeader">Steg 2:</h5>
-          <p1 class="cardSection--cardText">
-            Education remainder in so cordially. His remainder and own dejection
-            daughters sportsmen. In on announcing if of comparison pianoforte
-            projection.
-          </p1>
-        </div>
-        <div class="cardHolder--dog">
-          <h4 id="cardSection--circle">3</h4>
-          <h5 class="cardSection--cardHeader">Steg 3:</h5>
-          <p1 class="cardSection--cardText">
-            Education remainder in so cordially. His remainder and own dejection
-            daughters sportsmen. In on announcing if of comparison pianoforte
-            projection.
-          </p1>
-        </div>
-      </div>
+      <div id="homepage--cardOrganizer"></div>
+      <script src="../JS/createHomePageCard.js"></script>
     </div>
-    <div class = "grid">
-
-    </div>
+    <div class="grid"></div>
     <script src="../JS/footer.js"></script>
   </body>
 </html>
