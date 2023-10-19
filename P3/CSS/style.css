@@ -38,7 +38,6 @@ article {
   justify-content: space-between;
 }
 
-
 /* NAV*/ 
 .logo img {
   height: 8vh; 
@@ -68,7 +67,6 @@ article {
 .nav-links a:hover {
   background-color: #219ebc;
 }
-
 /* HAMBURGER NAV*/ 
 .hamburger {
   display: none;
@@ -125,6 +123,8 @@ article {
   .nav-links li {
       margin: 2vh;
       justify-content: space-around;
+  
+      
   }
 
   .nav-links a {
@@ -143,9 +143,9 @@ article {
 
 /* ABOUT US*/ 
 .container {
-  width: 100%;
+  width: 1000px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 20px;
 }
 .content {
   display: flex;
@@ -154,31 +154,11 @@ article {
   flex: 1;
   padding: 20px;
   text-align: left;
-  line-height: 24px;
 }
 .aboutusbilder {
     max-width: 100%;
     height: auto;
 }
-
-@media only screen and (min-width: 390px) {
-  .container {
-    width: 390px;
-    margin: 0 auto;
-  }
-  .aboutusbilder {
-    width: 50%;
-    padding-bottom: 30px;
-    float: right;
-  }
-
-  .section {
-    padding: 0px;
-    float: left;
-  }
-  
-}
-
 
 /* DOG-N PAGE*/
 
@@ -237,8 +217,8 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 150px;
-  left: 550px;
+  top: 200px;
+  left: 500px;
   background-color: transparent;
 }
 
@@ -247,11 +227,14 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 250px;
-  left: 550px;
+  top: 300px;
+  left: 450px;
   background-color: transparent;
 }
 
+#doneretekst {
+  margin: 20px;
+}
 /* ------------------------------------------------------------ */
 
 #bunn-firkant {

@@ -7,7 +7,7 @@ const dogsData = [
         breed: "",
     },
     {
-        imageSrc: "../images/dog2.0.jpeg",
+        imageSrc: "../images/dog1.1.jpeg",
         name: "Buster",
         gender: "",
         age: "",
@@ -20,7 +20,6 @@ const dogsData = [
         age: "",
         breed: "",
     },
-  
 ];
 
 const dogContainer = document.getElementById("dog-container");
