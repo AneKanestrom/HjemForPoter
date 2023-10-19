@@ -1,7 +1,23 @@
-let butn = document.getElementById('adopsjonsknapp');
+const butn = document.getElementById('adopsjonsknapp');
+
+//knapp for å få opp skjemaet
+butn.addEventListener('click', clickEventhandler);
 
 function clickEventhandler(){
     /* legg til funksjonalitet for å få opp skjema for adopsjon*/
+    
+
+
+    //få opp skjema til nettsiden
+    let skjema = document.getElementById('skjemaside');
+
+    skjema.style.display = 'block';
+
+}
+
+
+
+/* alternativt, med skjema i javaScript*/
     
     //lager et skjema for å ville adoptere en hund 
     /*var form = document.createElement('form');
@@ -15,7 +31,7 @@ function clickEventhandler(){
     inputMail.name = 'mail';
 
     var inputSøknad = document.createElement('søknad');
-    inputSøknad.type = 'text';
+    inputSøknad.type = 'text' 
     inputSøknad.name = 'søknad'
 
     //lager knapp for å sende inn skjemaet
@@ -35,8 +51,3 @@ function clickEventhandler(){
     */
 
     //få opp skjema til nettsiden
-}
-
-
-//knapp for å få opp skjemaet
-butn.addEventListener('click', clickEventhandler);
