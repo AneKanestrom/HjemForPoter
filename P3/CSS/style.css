@@ -38,6 +38,109 @@ article {
   justify-content: space-between;
 }
 
+/* NAV*/ 
+.logo img {
+  height: 8vh; 
+  width: auto;
+  padding-top: 1vh;
+}
+
+.desktop-nav {
+  display: flex; 
+  height: 10vh; 
+  align-items: center; 
+  background-color: #023047;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  background-color: #023047;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  background-color: #023047;
+}
+
+.nav-links a:hover {
+  background-color: #219ebc;
+}
+/* HAMBURGER NAV*/ 
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: flex;
+  width: 27px;
+  height: 2px;
+  background-color: white;
+  margin: 1vh 5vh;
+  
+}
+
+@media (orientation: landscape) {
+  .nav-links {
+      flex-direction: row;
+      gap: 5vh;
+      margin: 2vh;
+      padding-right: 3vh;
+  }
+  
+  .nav-links a {
+      padding: 1vh;
+  }
+
+  .desktop-nav {
+      width: 100%;
+      justify-content: space-between; 
+  }
+  .nav-element {
+      display: block;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+      max-width: 100%;
+  }
+  .nav-links {
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+
+  .desktop-nav {
+      justify-content: space-between;
+  }
+
+  .nav-links li {
+      margin: 2vh;
+      justify-content: space-around;
+  
+      
+  }
+
+  .nav-links a {
+      padding: 1vh;
+  }
+
+  .hamburger {
+      display: block;
+      margin: 0;
+  }
+
+  .nav-element {
+      display: none;
+  }
+}
+
 /* ABOUT US*/ 
 .container {
   width: 1000px;
@@ -114,8 +217,8 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 150px;
-  left: 550px;
+  top: 200px;
+  left: 500px;
   background-color: transparent;
 }
 
@@ -124,11 +227,14 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 250px;
-  left: 550px;
+  top: 300px;
+  left: 450px;
   background-color: transparent;
 }
 
+#doneretekst {
+  margin: 20px;
+}
 /* ------------------------------------------------------------ */
 
 #bunn-firkant {

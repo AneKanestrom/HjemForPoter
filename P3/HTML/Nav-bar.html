@@ -6,54 +6,34 @@
     <title>Navigation bar</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/nav_test.css">
-    <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="../images/logo_rund.png" >
 
 </head>
 <body>
 
 
-    <nav id="desktop-nav">
+    <nav class="desktop-nav">
         <div class="logo"> 
             <a href="HomePage.html">
                 <img src="../images/Logo.png" alt="Logo">
             </a>
         </div>
-        <div>
+        <div >
             <ul class="nav-links">
-                <li> <a href="AboutUs.html">OM OSS</a></li>
-                <li> <a href="Dogs.html">HUNDER</a></li>
-                <li> <a href="Donate.html">DONER</a></li>
+                <li onclick="toggle()">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </li>
+                <li class="nav-element"> <a href="AboutUs.html">OM OSS</a></li>
+                <li class="nav-element"> <a href="Dogs.html">HUNDER</a></li>
+                <li class="nav-element"> <a href="Donate.html">DONER</a></li>
             </ul>
         </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
     </nav>
-
-    
-
-<!--
-
-
-    <nav id="hamburger">
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li> <a href="AboutUs.html" onclick="toggleMenu()">OM OSS</a></li>
-                <li> <a href="Dogs.html" onclick="toggleMenu()">HUNDER</a></li>
-                <li> <a href="Donate.html" onclick="toggleMenu()">DONER</a></li>
-            </div>
-        </div>
-    </nav>
--->
-
+    <script src="../JS/hamburger.js"> </script> 
 </body>
 </html>
 

@@ -5,26 +5,39 @@
     <title>Alle hunder</title>
     <link rel= "stylesheet" href="../CSS/style.css">
     
-<style>
-    body{
-        padding: 60px;
-    }
+    <style>
+        /* body{
+            padding: 60px;
+        } */
 
-    p{
-        text-align: justify;
-    }
+        p{
+            text-align: justify;
+        }
+        section {
+            /* text-align: center; */
+            margin: auto;
+            max-width: 800px; /* Juster bredden etter ditt behov */
+            padding: 20px; /* Legg til luft på sidene */
+        }
 
+        .dog-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    } 
     .dog-box-bilde{
-    width: 130px;
-    height: 150px;
-    object-fit: cover;
-    }
-</style>
+        width: 130px;
+        height: 150px;
+        object-fit: cover;
+    } 
+    </style>
 
 </head>
 
 <body>
-    
+    <div id="navbar"></div> 
+    <script src="../JS/nav.js"> </script> 
 
     <section>
         <h1>Hunder som kan adopteres</h1>
@@ -32,11 +45,11 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem possimus quas labore placeat 
                 porro perspiciatis odio id error asperiores explicabo. Repellendus est explicabo, tenetur qui 
                 laboriosam debitis voluptas perferendis id!</p>
-    
     </section>
     
-
-    <div class="dog-box">
+    <div id="dog-container"></div> 
+    <script src="../JS/createDogBox.js"> </script> 
+    <!-- <div class="dog-box">
         <img src="../images/dog1.0.jpeg" class="dog-box-bilde" alt="Buster">
         <h3>Buster</h3>
         <p>Kjønn:</p>
@@ -58,7 +71,8 @@
         <p>Kjønn:</p>
         <p>Alder:</p>
         <p>Rase:</p>
-    </div>
+    </div> -->
 
+    <script src="../JS/hamburger.js"> </script> 
 </body>
 </html>
