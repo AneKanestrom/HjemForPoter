@@ -67,6 +67,7 @@ article {
 .nav-links a:hover {
   background-color: #219ebc;
 }
+
 /* HAMBURGER NAV*/ 
 .hamburger {
   display: none;
@@ -123,8 +124,6 @@ article {
   .nav-links li {
       margin: 2vh;
       justify-content: space-around;
-  
-      
   }
 
   .nav-links a {
