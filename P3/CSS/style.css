@@ -142,42 +142,31 @@ article {
 }
 
 /* ABOUT US*/ 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px;
-}
+
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
-.section {
+
+.about_tekst {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
   text-align: left;
   line-height: 24px;
 }
+
 .aboutusbilder {
     max-width: 100%;
-    height: auto;
+    padding-top: 20px;
+
 }
 
-@media only screen and (min-width: 390px) {
-  .container {
-    width: 390px;
-    margin: 0 auto;
+@media (orientation: portrait) {
+  .content {
+    flex-direction: column;
   }
-  .aboutusbilder {
-    width: 50%;
-    padding-bottom: 30px;
-    float: right;
-  }
-
-  .section {
-    padding: 0px;
-    float: left;
-  }
-  
 }
+
 
 
 /* DOG-N PAGE*/
