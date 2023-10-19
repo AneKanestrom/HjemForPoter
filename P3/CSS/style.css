@@ -218,7 +218,7 @@ button {
   font-weight: bold;
   position: absolute;
   top: 150px;
-  left: 550px;
+  left: 500px;
   background-color: transparent;
 }
 
@@ -228,10 +228,13 @@ button {
   font-weight: bold;
   position: absolute;
   top: 250px;
-  left: 550px;
+  left: 450px;
   background-color: transparent;
 }
 
+#doneretekst {
+  margin: 20px;
+}
 /* ------------------------------------------------------------ */
 
 #bunn-firkant {
