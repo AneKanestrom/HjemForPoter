@@ -1,3 +1,5 @@
+
+
 function addNavbar() {
     let navbar = document.getElementById("navbar");
     var navcode = '<nav class="desktop-nav">'+
@@ -24,5 +26,8 @@ function addNavbar() {
     '    <script src="../JS/hamburger.js"> </script>';
         
     navbar.innerHTML = navcode;
+    
 }
+
+window.onload = addNavbar();
 
