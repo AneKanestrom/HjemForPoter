@@ -143,9 +143,9 @@ article {
 
 /* ABOUT US*/ 
 .container {
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px;
 }
 .content {
   display: flex;
@@ -154,6 +154,7 @@ article {
   flex: 1;
   padding: 20px;
   text-align: left;
+  line-height: 24px;
 }
 .aboutusbilder {
     max-width: 100%;
