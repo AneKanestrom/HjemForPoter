@@ -142,23 +142,31 @@ article {
 }
 
 /* ABOUT US*/ 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-}
+
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
-.section {
+
+.about_tekst {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
   text-align: left;
 }
+
 .aboutusbilder {
     max-width: 100%;
-    height: auto;
+    padding-top: 20px;
+
 }
+
+@media (orientation: portrait) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+
 
 /* DOG-N PAGE*/
 
