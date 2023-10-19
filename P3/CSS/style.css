@@ -160,6 +160,24 @@ article {
     height: auto;
 }
 
+@media only screen and (min-width: 390px) {
+  .container {
+    width: 390px;
+    margin: 0 auto;
+  }
+  .aboutusbilder {
+    width: 50%;
+    padding-bottom: 30px;
+    float: right;
+  }
+
+  .section {
+    padding: 0px;
+    float: left;
+  }
+  
+}
+
 /* DOG-N PAGE*/
 
 button {
@@ -217,8 +235,9 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 200px;
-  left: 500px;
+  top: 150px;
+  left: 550px;
+
   background-color: transparent;
 }
 
@@ -227,14 +246,11 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 300px;
-  left: 450px;
+  top: 250px;
+  left: 550px;
   background-color: transparent;
 }
 
-#doneretekst {
-  margin: 20px;
-}
 /* ------------------------------------------------------------ */
 
 #bunn-firkant {
