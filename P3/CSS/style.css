@@ -38,6 +38,7 @@ article {
   justify-content: space-between;
 }
 
+
 /* NAV*/ 
 .logo img {
   height: 8vh; 
@@ -67,6 +68,7 @@ article {
 .nav-links a:hover {
   background-color: #219ebc;
 }
+
 /* HAMBURGER NAV*/ 
 .hamburger {
   display: none;
@@ -123,8 +125,6 @@ article {
   .nav-links li {
       margin: 2vh;
       justify-content: space-around;
-  
-      
   }
 
   .nav-links a {
@@ -152,6 +152,7 @@ article {
   flex: 1;
   padding: 40px;
   text-align: left;
+  line-height: 24px;
 }
 
 .aboutusbilder {
@@ -225,8 +226,8 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 200px;
-  left: 500px;
+  top: 150px;
+  left: 550px;
   background-color: transparent;
 }
 
@@ -235,14 +236,11 @@ button {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
-  top: 300px;
-  left: 450px;
+  top: 250px;
+  left: 550px;
   background-color: transparent;
 }
 
-#doneretekst {
-  margin: 20px;
-}
 /* ------------------------------------------------------------ */
 
 #bunn-firkant {
