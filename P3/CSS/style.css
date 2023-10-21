@@ -169,6 +169,14 @@ article {
 
 /* DOG-N PAGE*/
 
+#innhold{
+  padding: 40px;
+}
+
+#om{
+  padding-bottom: 20px;
+}
+
 button {
   background-color: #fb8500;
   padding: 4% 8%;
@@ -178,6 +186,7 @@ button {
 
 #DogNPagebilde {
   width: 40%;
+  padding-bottom: 20px;
 }
 
 #DogNPage_section {
@@ -185,6 +194,54 @@ button {
   margin-right: 30%;
   text-align: left;
 }
+
+/*input og textarea brukes bare her? hvis ikke: lag id for disse*/
+input[type="text"]{
+  width: 200px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+textarea{
+  width: 350px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+
+#soknad{
+  color: #fb8500;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#adopsjon{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+#soknadsinfo{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+#skjema{
+  display:block;
+  /*margin: 24px auto;
+  padding: 20px;*/
+}
+
+label, input, textarea{
+  margin-bottom: 10px
+}
+
+#skjemaside{
+  display: none;
+  padding-top: 40px;
+}
+
 
 /* DOGS*/
 .dog-box {
