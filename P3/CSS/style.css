@@ -38,7 +38,6 @@ article {
   justify-content: space-between;
 }
 
-
 /* NAV*/ 
 .logo img {
   height: 8vh; 
@@ -68,7 +67,6 @@ article {
 .nav-links a:hover {
   background-color: #219ebc;
 }
-
 /* HAMBURGER NAV*/ 
 .hamburger {
   display: none;
@@ -125,6 +123,8 @@ article {
   .nav-links li {
       margin: 2vh;
       justify-content: space-around;
+  
+      
   }
 
   .nav-links a {
@@ -166,8 +166,6 @@ article {
     flex-direction: column;
   }
 }
-
-
 
 /* DOG-N PAGE*/
 
@@ -228,6 +226,7 @@ button {
   position: absolute;
   top: 150px;
   left: 550px;
+
   background-color: transparent;
 }
 

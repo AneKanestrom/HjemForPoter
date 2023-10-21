@@ -20,7 +20,6 @@ const dogsData = [
         age: "",
         breed: "",
     },
-  
 ];
 
 const dogContainer = document.getElementById("dog-container");
