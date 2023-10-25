@@ -19,12 +19,14 @@
         flex-direction: row;
         margin-top: 5%;
         max-width: 80%;
+        margin-bottom: 5%;
       }
 
       .homepage--mainImage {
-        width: 30%;
+        width: 50%;
         margin-left: 2%;
         margin-bottom: 5%;
+        border-radius: 10px;
       }
       .homepage--information {
         margin-left: 10%;
@@ -34,17 +36,16 @@
         margin-top: 0%;
       }
 
-      /*Under er stylinga av det andre homepage bildet*/
+      /*Styling av card*/
 
       .cardSection {
-        margin-top: 0%;
+        padding: 3%;
         background: lightblue;
         display: flex;
         flex-direction: column;
       }
 
       #cardSectionHeader {
-        margin-top: 2%;
         text-align: center;
       }
 
@@ -54,6 +55,7 @@
       #homepage--cardOrganizer {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
       }
 
       .cardHolder--informationProcess {
@@ -65,7 +67,7 @@
         text-justify: center;
         margin-left: 15%;
         background: white;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         margin-top: 3%;
       }
 
@@ -84,6 +86,31 @@
       .cardSection--cardText {
         margin: 5% 10% 10% 10%;
       }
+
+      @media(max-width: 900px){
+        .cardHolder--informationProcess{
+          width: 40%;
+          margin: 3% auto;
+          margin-bottom: 5%;
+        }
+        #cardSectionHeader{
+          font-size: 1.6em;
+        }
+        .homepage--mainImage{
+          width: auto;
+        }
+        .finnDinNyeBestevenn{
+          flex-direction: column;
+          max-width: 100%;
+          margin-left: 10%;
+          margin-right: 10%;
+        }
+        .homepage--information{
+          text-align: center;
+        }
+      }
+
+    
     </style>
   </head>
   <body>
