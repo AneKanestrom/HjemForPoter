@@ -1,9 +1,8 @@
 # TODO
 
-- Legg til i starten av alle html body
+- Legg til i starten av alle html head
 ```
-    <div id="navbar"></div> 
-    <script src="../JS/nav.js"> </script> 
+    <link rel="icon" type="image/x-icon" href="../images/logo_rund.png" >
 ```
 
 
