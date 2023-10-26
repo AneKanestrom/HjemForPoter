@@ -3,7 +3,7 @@ function addFooter() {
   var footerCode = `<img src="../images/Logo.png" class="grid-item-1" />
     <p class="grid-item-2">Kontakt oss</p>
     <p class="grid-item-3">Følg oss</p>
-    <img src="../images/phone-icon.png" class="grid-item-4" />
+    <img src="../images/icon_phone.png" class="grid-item-4" />
     <p1 class="grid-item-5">46574286</p1>
     <p1 class="grid-item-6">Postegata 47</p1>
     <p1 class="grid-item-7">7035 Trondheim</p1>

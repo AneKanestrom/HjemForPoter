@@ -38,7 +38,7 @@ article {
   justify-content: space-between;
 }
 
-/* NAV*/
+/* NAV*/ 
 .logo img {
   height: 8vh;
   width: auto;
@@ -67,8 +67,7 @@ article {
 .nav-links a:hover {
   background-color: #219ebc;
 }
-
-/* HAMBURGER NAV*/
+/* HAMBURGER NAV*/ 
 .hamburger {
   display: none;
   cursor: pointer;
@@ -138,40 +137,29 @@ article {
   }
 }
 
-/* ABOUT US*/
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px;
-}
+/* ABOUT US*/ 
+
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
-.section {
+
+.about_tekst {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
   text-align: left;
   line-height: 24px;
 }
+
 .aboutusbilder {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    padding-top: 20px;
+
 }
 
-@media only screen and (min-width: 390px) {
-  .container {
-    width: 390px;
-    margin: 0 auto;
-  }
-  .aboutusbilder {
-    width: 50%;
-    padding-bottom: 30px;
-    float: right;
-  }
-
-  .section {
-    padding: 0px;
-    float: left;
+@media (orientation: portrait) {
+  .content {
+    flex-direction: column;
   }
 }
 
@@ -234,6 +222,7 @@ button {
   position: absolute;
   top: 150px;
   left: 550px;
+
   background-color: transparent;
 }
 
