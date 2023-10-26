@@ -9,24 +9,42 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/nav_test.css">
 
+    <style>
+        @media (orientation: portrait){
+            /*
+            bestemme hva som skal skje her:...
+            Stoppe at bilde og overskrift og sånt blir mindre?
+            */
+        }
+
+    </style>
+
 </head>
 <body>
     <div id="navbar"></div>
-    <script src="../JS/nav.js"> </script> 
     
 
     <div id = "innhold">
+
+        <div id = "navnOgOverskrift"></div>
+
+        <!--
         <h1>Buster</h1>
 
         <img src="../images/buster.png" alt="bilde av hunden Buster" id = "DogNPagebilde">
+        -->
 
         <section id = "DogNPage_section">
+
             
             <article id = "om">
                 <h2>Om</h2>
                 <button id = "adopsjonsknapp" button type = "onclick"> Adopter </button>
             </article>
 
+            <div id = "hundeinfo"></div>
+
+           <!--
             <p>Buster er en (...). Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind. </p>
             <br>
             <p>Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind.</p>
@@ -34,11 +52,12 @@
             <p>Remainder in so cordially. His remainder and own dejection.</p>
             <br>
             <p>No depending be convinced in unfeeling he. Excellence she unaffected and too sentiments her. Rooms he doors.</p>
-
+           -->
+            
 
             <div id = "skjemaside">
                 <p id = "soknad" > SØKNAD FOR ADOPSJON</p>
-                <p id = "adopsjon"> Adopter Buster</p>
+                <p id = "adopsjon"> Adopter Buster</p> <!--Usikker på om jeg får til å hente inn navnet fra js funksjonen, droppe å ha med navn?-->
                 <p id = "soknadsinfo"> Fortell litt om deg selv, så tar vi kontakt!</p>
             
                 <form id = "skjema">
@@ -60,8 +79,14 @@
 
     </div>
 
-    <script src="../JS/Adoptionform.js"> </script>
+    <!--legger til info om en hund-->
+     <script src="../JS/createDogNPage.js"></script>
 
+    <!--legger til formet-->
+    <script src="../JS/Adoptionform.js"></script>
+
+    <!--legger til navbaren-->
+    <script src="../JS/nav.js"></script> 
 
     <!--legger til hamburgermeny for en responsive header-->
     <script src="../JS/hamburger.js"></script>
