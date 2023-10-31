@@ -81,7 +81,13 @@
     </div>
 
     <!--legger til info om en hund-->
-     <script src="../JS/createDogNPage.js"></script>
+    <script src="../JS/createDogNPage.js"></script>
+
+    <script>
+        const dogID = localStorage.getItem("dogID");
+        createTopOfDogNPage(dogID);
+        createInfo(dogID);
+    </script>
 
     <!--legger til formet-->
     <script src="../JS/Adoptionform.js"></script>

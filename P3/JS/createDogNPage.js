@@ -39,11 +39,6 @@ const dogsData = [
 ];
 
 
-//må klare å slå opp på riktig hund for å finne riktig info. Avgjøres av knappen vi lager? kobling mellom sidene
-//gi hver hund en primary key?
-//hvordan bruke hundNo over?? Kanskje derfor bedre med dictionary?
-
-
 
 function createDogBox() {
 
@@ -89,39 +84,14 @@ function createDogBox() {
     });
 }
 
-
-//funksjon for å finne hvilken hun det er snakk om! 
-//tenkt å koble opp mot knapp og actionlistner ?
-//god måte å løse dette på??
-
-/*function findDog(hundNo){
-    i = 0;
-    for (let dog of dogsData){
-        i++
-        if (dog.hundNo === hundNo){
-            return i;
-        }
-        else{
-            console.log("feil i hundNo og FindDog logikk")
-        }
-    }
-
-}*/
-
-//i vil nå fortelle oss hvilken hund i lista vi har.
-
-
-function createTopOfDogNPage(indeks, html) {
-    const navnOgOverskrift = html.document.getElementById("navnOgOverskrift");
-
-    //navn og overskrfift blir null, aaaaaah
-    //får ikke til å hente dette, fordi det kalles på fra en funksjon i Dogs.html??
-    console.log(navnOgOverskrift)
+function createTopOfDogNPage(indeks) {
+    const navnOgOverskrift = document.getElementById("navnOgOverskrift");
 
     //henter ut hunden 
     const dog = dogsData[indeks];
+
+    console.log(dog);
     
-    //returnere dette?
     const h1 = document.createElement("h1") 
     h1.textContent = dog.name;
 
@@ -149,7 +119,6 @@ function createInfo(indeks){
 }
 
 function showDogNPage(){
-    //bytter path til DogNPage
 
     //gjør at divene fungerer som knapper med click events!
     const dogBtn1 = document.getElementById("dogNo0");
@@ -157,31 +126,19 @@ function showDogNPage(){
     const dogBtn3 = document.getElementById("dogNo2");
 
     dogBtn1.addEventListener('click', function() {
-        //localStorage.setItem("dogIndex", 0);
-        createTopOfDogNPage(0, "dogNPage.html");
-        createInfo(0);
-
+        localStorage.setItem("dogID", 0);
         window.location.href = "DogNPage.html"
     });
 
     dogBtn2.addEventListener('click', function() {
-        createTopOfDogNPage(1);
-        createInfo(1);
+        localStorage.setItem('dogID', 1);
 
         window.location.href = "DogNPage.html"
     });
     dogBtn3.addEventListener('click', function() {
-        createTopOfDogNPage(2);
-        createInfo(2);
+        localStorage.setItem('dogID', 2);
 
         window.location.href = "DogNPage.html"
     
     })
 }
-
-//chatGPT sin løsning: funker ikke for oss, kaller funksjoner fra dogs.html
-/*document.addEventListener("DOMContentLoaded", function() {
-    createDogBox();
-    showDogNPage();
-})*/
-//bytte ut dette slik at vi blir sendt riktig sted når vi klikker på en av knappene (divene) våre, vil bli sendt til riktig hund
