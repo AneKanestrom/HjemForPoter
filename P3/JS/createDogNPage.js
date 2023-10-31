@@ -111,10 +111,11 @@ function createDogBox() {
 //i vil nå fortelle oss hvilken hund i lista vi har.
 
 
-function createTopOfDogNPage(indeks) {
-    const navnOgOverskrift = document.getElementById("navnOgOverskrift");
+function createTopOfDogNPage(indeks, html) {
+    const navnOgOverskrift = html.document.getElementById("navnOgOverskrift");
 
     //navn og overskrfift blir null, aaaaaah
+    //får ikke til å hente dette, fordi det kalles på fra en funksjon i Dogs.html??
     console.log(navnOgOverskrift)
 
     //henter ut hunden 
@@ -156,8 +157,8 @@ function showDogNPage(){
     const dogBtn3 = document.getElementById("dogNo2");
 
     dogBtn1.addEventListener('click', function() {
-        localStorage.setItem("dogIndex", 0);
-        createTopOfDogNPage(0);
+        //localStorage.setItem("dogIndex", 0);
+        createTopOfDogNPage(0, "dogNPage.html");
         createInfo(0);
 
         window.location.href = "DogNPage.html"
