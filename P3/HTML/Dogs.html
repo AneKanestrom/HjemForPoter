@@ -4,20 +4,14 @@
     <meta charset="UTF-8">
     <title>Alle hunder</title>
     <link rel= "stylesheet" href="../CSS/style.css">
-    
-    <style>
-        
-        
-       
+    <link rel="icon" type="image/x-icon" href="../images/logo_rund.png" >
 
-
-    </style>
+    <script src="../JS/allDogs.js">  </script>
 
 </head>
 
 <body>
     <div id="navbar"></div> 
-    <script src="../JS/nav.js"> </script> 
 
     <section id="dogInfo">
         <h1>Hunder som kan adopteres</h1>
@@ -27,11 +21,17 @@
                 laboriosam debitis voluptas perferendis id!</p>
     </section>
     
-    <div id="dog-container"></div> 
-    <script src="../JS/createDogBox.js"> </script> 
-   
 
+    <script src="../JS/nav.js"> </script> 
+    
     <script src="../JS/hamburger.js"> </script> 
+
+    
+    <div id="dog-container"></div> 
+    <script> 
+        createDogBox();
+        showDogNPage();
+    </script>
 
     <div class="grid"></div>
     <script src="../JS/footer.js"></script>
