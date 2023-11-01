@@ -27,13 +27,8 @@
 
     <div id = "innhold">
 
+        <!--div hvor det vil bli sendt navn og bilde på hunden fra createTopOfDogNPage i createDogNPage.js-->
         <div id = "navnOgOverskrift"></div>
-
-        <!--
-        <h1>Buster</h1>
-
-        <img src="../images/buster.png" alt="bilde av hunden Buster" id = "DogNPagebilde">
-        -->
 
         <section id = "DogNPage_section">
 
@@ -43,17 +38,8 @@
                 <button id = "adopsjonsknapp" type = "onclick"> Adopter </button>
             </article>
 
+            <!--div hvor det vil bli sendt info om hunden fra createInfo i createDogNPage-->
             <div id = "hundeinfo"></div>
-
-           <!--
-            <p>Buster er en (...). Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind. </p>
-            <br>
-            <p>Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind.</p>
-            <br>
-            <p>Remainder in so cordially. His remainder and own dejection.</p>
-            <br>
-            <p>No depending be convinced in unfeeling he. Excellence she unaffected and too sentiments her. Rooms he doors.</p>
-           -->
             
 
             <div id = "skjemaside">
@@ -72,7 +58,8 @@
                     <input type="submit"><br>
                 </form>
             
-                <!--foreløpig skjer det ingen ting når man trykker på send inn, endre dette?
+                <!--foreløpig skjer det ingen ting når man trykker på send inn, endre til at man får opp en liten side med 
+                bekreftelse på at det har blitt sendt inn
                 Tror ikke tabindex funker-->
             </div>
 
@@ -81,7 +68,7 @@
     </div>
 
     <!--legger til info om en hund-->
-    <script src="../JS/createDogNPage.js"></script>
+    <script src="../JS/allDogs.js"></script>
 
     <script>
         const dogID = localStorage.getItem("dogID");
@@ -90,7 +77,7 @@
     </script>
 
     <!--legger til formet-->
-    <script src="../JS/Adoptionform.js"></script>
+    <script src="../JS/adoptionform.js"></script>
 
     <!--legger til navbaren-->
     <script src="../JS/nav.js"></script> 
