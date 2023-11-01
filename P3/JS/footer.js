@@ -8,10 +8,9 @@ function addFooter() {
     <p1 class="grid-item-6">Postegata 47</p1>
     <p1 class="grid-item-7">7035 Trondheim</p1>
     <p1 class="grid-item-8">✉ post@hjemforpoter.no</p1>
-    <img src="../images/instagram-icon.png" class="grid-item-10" />
-    <img src="../images/facebook-icon.png" class="grid-item-11" />
-    <img src="../images/twitter.png" class="grid-item-12" />
-    <img src="../images/youtube-icon.png" class="grid-item-13" />`;
+    <img src="../images/icon_insta.png" class="grid-item-9" />
+    <img src="../images/icon_facebook.png" class="grid-item-10" />
+    <img src="../images/icon_linkedin.png" class="grid-item-11" />`;
   divElement[0].innerHTML = footerCode;
 }
 
