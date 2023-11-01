@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../CSS/style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P3_changes</title>
+    <style>
+        h1 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        body{
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        body {
+            margin: 50px;
+            margin-left: 200px;
+            margin-right: 200px;
+            line-height: 30px;
+        }
+        #dokinfo{
+            margin-bottom: 30px;
+        }
+
+        #admin{
+            margin-bottom: 30px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1> P3_changes</h1>
+
+    <!-- dokumnetinfo -->
+    <div id="dokinfo">
+        <h4> IT2805 Webteknologi (2023 HØST)</h4>
+        <h3> Prosjektgruppe 30</h3>
+        <ul> 
+            <li> Kim-Iver Brevik Blinheimsvik</li>
+            <li> Anne Line Hval</li>
+            <li> Ane Christine Caolan Kanestrøm</li>
+            <li> Guro Kristensen</li>
+            <li> Hennie Nybro Lunde</li>
+            <li> Swati Soosaipillai</li>
+        </ul>
+    </div>
+
+    <!-- admnistrative detaljer -->
+    <div id="admin">
+        <h2> Administrative detaljer</h2>
+        <div> Navn nettside: HjemForPoter</div>
+        <div> Klient: fikitiv</div>
+        <div> Vår veileder: Felix Torgersen Berner </div>
+        <div> Link til nettsiden vår: (...)</div>
+        <!-- link til forsiden -->
+    </div>
+
+        
+    <!-- endringer -->
+    <div id="endring">
+        <h2>Endringer </h2>
+        <p>Endret bildene som ble brukt </p>
+        <p>Endret fargen på ikonene i footeren fra orange til hvitt </p>
+        <p>Gjorde sidene “responsive” til alle enheter</p>
+        <p>Lagde en hamburger meny for portrait</p>
+        <p>På siden “Om oss” valgte vi å endre på layoutet, 
+            kun fordi vi synes det så penere ut. Vi har heller laget to kolonner 
+            istedenfor med tekst og bilde i hver av kolonnene, istedenfor å ha avsnittene i en 
+            kolonne og bildene i en kolonne. </p>
+        <p>La til flere js enn planlagt da vi så behovet for dette. createHomePageCard.js for å
+             unngå repetitive kode, hamburger.js for hamburger meny ved liten skjerm, adoptionform.js 
+             for å kunne adoptere hundene.
+        </p> 
+    </div>
+
+    <!-- Arbeidsfordeling -->
+    <div id="arbeid">
+        <h2>Arbeidsfordeling</h2>
+        <ul>
+            <li> HomePage.html 
+                <ul>
+                    <li>Hovedansvar: Kim-Iver</li>
+                    <li>Beskrivelse: Hjemmesiden</li>
+                </ul>
+            </li>
+            <li> Footer.js
+                <ul>
+                    <li>Hovedansvar: Kim-Iver</li>
+                    <li>Beskrivelse: Inneholder html-koding for bunnteksten som er konsistent mellom sidene</li>
+                </ul>
+            </li>
+            <li> createHomePageCard.js
+                <ul>
+                    <li>Hovedansvar: Kim-Iver</li>
+                    <li>Beskrivelse: BJavascripts som sørger for å unngå repetitiv kode i homePage.html </li>
+                </ul>
+            </li>
+            <li> Dogs.html 
+                <ul>
+                    <li>Hovedansvar: Anne Line</li>
+                    <li>Beskrivelse: Viser de tre hundene som kan adopteres, i tillegg til en beskrivelse av hundene </li>
+                </ul>
+            </li>
+            <li> AboutUs.html 
+                <ul>
+                    <li>Hovedansvar: Swati</li>
+                    <li>Beskrivelse: Informasjon om organisasjonen og historien til organisasjonen </li>
+                </ul>
+            </li>
+            <li> Logo design
+                <ul>
+                    <li>Hovedansvar: Swati</li>
+                </ul>
+            </li>
+            <li> Donate.html 
+                <ul>
+                    <li>Hovedansvar: Hennie</li>
+                    <li>Beskrivelse: Informasjon om donasjon</li>
+                </ul>
+            </li>
+            <li> P3_changes.html
+                <ul>
+                    <li>Hovedansvar: Alle</li>
+                    <li>Beskrivelse: Beskrivelse av endringene vi gjorde underveis i prosjektet </li>
+                </ul>
+            </li>
+            <li> DogNPage.html
+                <ul>
+                    <li>Hovedansvar: Guro</li>
+                    <li>Beskrivelse: Html filen som er for hver enkelt hund. Her er det en beskrivelse av hunden, bilder og mulighet for å adoptere hunden via et form.  </li>
+                </ul>
+            </li>
+            <li> Adoptionform.js
+                <ul>
+                    <li>Hovedansvar: Guro</li>
+                    <li>Beskrivelse: Funksjonen som gjør at et form popper opp om du vil adoptere den hunden du er inne på</li>
+                </ul>
+            </li>
+            <li> allDogs.js
+                <ul>
+                    <li>Hovedansvar: Guro og Anne Line</li>
+                    <li>Beskrivelse: inneholder informasjon om hundene våre og funksjoner vi bruker i dogs.html og dogNPage.html for å unngå repetativ kode. Vi bruker også denne filen for å linke mellom dogs.html og dogNPage.html</li>
+                </ul>
+            </li>
+            <li> nav.js
+                <ul>
+                    <li>Hovedansvar: Ane</li>
+                    <li>Beskrivelse: Navigasjonsbar som skal være på alle siden for å navigere seg mellom de ulike html filene  </li>
+                </ul>
+            </li>
+            <li>  hamburger.js
+                <ul>
+                    <li>Hovedansvar: Ane</li>
+                    <li>Beskrivelse: Navigasjonsbar som skal være på alle siden for å navigere seg mellom de ulike html filene</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <div id = "filstruktur">
+        <h2>Filstruktur</h2>
+        <ul>
+            <li>JS</li>
+                <ul>
+                    <li>adoptionform.js</li>
+                    <li>allDogs.js</li>
+                    <li>createHomePageCard.js</li>
+                    <li>footer.js</li>
+                    <li>hamburger.js</li>
+                    <li>nav.js</li>
+                </ul>
+            <li>CSS</li>
+                <ul>
+                    <li>style.css</li>
+                </ul>
+            <li>HTML</li>
+                <ul>
+                    <li>AboutUs.html</li>
+                    <li>DogNPage.html</li>
+                    <li>Dogs.html</li>
+                    <li>Donate.html</li>
+                    <li>HomePage.html</li>
+                    <li>P3_changes.html</li>
+                </ul>
+            <li>images</li>
+                <ul>
+                    <li>BUSTER2.png</li>
+                    <li>Logo.png</li>
+                    <li>aboutus.jpeg</li>
+                    <li>aboutus_dog.jpeg</li>
+                    <li>buster.png</li>
+                    <li>dog1.0.jpeg</li>
+                    <li>dog2.0.jpeg</li>
+                    <li>dog_homepage.jpeg</li>
+                    <li>icon_facebook.png</li>
+                    <li>icon_insta.png</li>
+                    <li>icon_linkedin.png</li>
+                    <li>icon_mail.png</li>
+                    <li>icon_phone.png</li>
+                    <li>logo_rund.png</li>
+                </ul>
+        </ul>
+    </div>
+    
+
+
+    
+
+</body>
+</html>
+
