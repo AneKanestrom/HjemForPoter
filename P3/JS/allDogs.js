@@ -8,8 +8,8 @@ const dogsData = [
         breed: "",
         //lagt inn dette for å se om formatet blir greit
         info: "Buster er en (...). Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind." + 
-         "<br />" + "Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind" + 
-         "\n" + "Remainder in so cordially. His remainder and own dejection." + "\n" +
+         "Education remainder in so cordially. His remainder and own dejection daughters sportsmen. Is easy took he shed to kind" + 
+         "Remainder in so cordially. His remainder and own dejection." +
          "No depending be convinced in unfeeling he. Excellence she unaffected and too sentiments her. Rooms he doors",
     },
     {
@@ -52,7 +52,6 @@ function createDogBox() {
         //gir de forskjelig id, kan vi bruke dette til å skille mellom hvilke hundeside vi skal linke til?
         dogBox.id = "dogNo" + i;
 
-        console.log (dogBox.id)
 
         const img = document.createElement("img");
         img.src = dog.imageSrc;
@@ -89,8 +88,6 @@ function createTopOfDogNPage(indeks) {
 
     //henter ut hunden 
     const dog = dogsData[indeks];
-
-    console.log(dog);
     
     const h1 = document.createElement("h1") 
     h1.textContent = dog.name;
