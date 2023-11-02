@@ -4,6 +4,8 @@ const paragraphText = `Education remainder in so cordially. His remainder and ow
 daughters sportsmen. In on announcing if of comparison pianoforte
 projection.`
 
+/*Creates the homepage card that is used on the homepage*/
+
 function createHomepageCard(cardNumber){
     let cardHolder = document.getElementById("homepage--cardOrganizer")
 
