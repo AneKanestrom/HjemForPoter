@@ -85,10 +85,11 @@ function createDogBox() {
     });
 }
 
+//funksjon for å legge til overskrift og bilde av hunden. Brukes i DogNPage.html
 function createTopOfDogNPage(indeks) {
     const navnOgOverskrift = document.getElementById("navnOgOverskrift");
 
-    //henter ut hunden 
+    //henter ut riktig hund
     const dog = dogsData[indeks];
     
     const h1 = document.createElement("h1") 
@@ -104,7 +105,7 @@ function createTopOfDogNPage(indeks) {
 
 }
 
-
+//funksjon for å legge til riktig info om en hund fra lista, brukes i DogNPage.html
 function createInfo(indeks){ 
     const hundeinfo = document.getElementById("hundeinfo");
     //henter ut hunden 
@@ -117,6 +118,7 @@ function createInfo(indeks){
 
 }
 
+//funksjon for divene i dogNPage
 function showDogNPage(){
 
     //gjør at divene fungerer som knapper med click events!
@@ -124,6 +126,8 @@ function showDogNPage(){
     const dogBtn2 = document.getElementById("dogNo1");
     const dogBtn3 = document.getElementById("dogNo2");
 
+    /*eventlistnerene gir en funksjon som skal utføres når divene blir klikket på. Legger til dogID i local storage 
+    med id-en hund i lista over, avhenger av hvilken knapp man trykker på. Bytter så til DogNPage.html*/
     dogBtn1.addEventListener('click', function() {
         localStorage.setItem("dogID", 0);
         window.location.href = "DogNPage.html"
