@@ -190,7 +190,6 @@ button {
   text-align: left;
 }
 
-/*input og textarea brukes bare her? hvis ikke: lag id for disse*/
 input[type="text"]{
   width: 200px;
   height: 25px;
@@ -199,7 +198,7 @@ input[type="text"]{
 }
 
 textarea{
-  width: 350px;
+  width: 300px;
   height: 100px;
   border: 1px solid black;
   border-radius: 15px;
@@ -224,8 +223,6 @@ textarea{
 
 #skjema{
   display:block;
-  /*margin: 24px auto;
-  padding: 20px;*/
 }
 
 label, input, textarea{
@@ -287,14 +284,6 @@ label, input, textarea{
   max-width: 100%;
   height: auto;
 }
-/* article {
-    margin: 20px;
-    text-align: center;
-} */
-
-/* plassering av vipps og kontonr. */
-
-
 
 
 /* ------------------------------------------------------------ */

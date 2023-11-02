@@ -10,12 +10,6 @@
     <link rel="icon" type="image/x-icon" href="../images/logo_rund.png" >
 
     <style>
-        @media (orientation: portrait){
-            /*
-            bestemme hva som skal skje her:...
-            Stoppe at bilde og overskrift og sånt blir mindre?
-            */
-        }
 
     </style>
 
@@ -31,7 +25,6 @@
 
         <div id = "DogNPage_section">
 
-            
             <article id = "om">
                 <h2>Om</h2>
                 <button type = "button" id = "adopsjonsknapp"> Adopter </button>
@@ -41,6 +34,7 @@
             <div id = "hundeinfo"></div>
             
 
+            <!--Skjemaet som dukker opp når man klikker på adopter-->
             <div id = "skjemaside">
                 <p id = "soknad" > SØKNAD FOR ADOPSJON</p>
                 <p id = "adopsjon"> Adopter Buster</p> <!--Usikker på om jeg får til å hente inn navnet fra js funksjonen, droppe å ha med navn?-->
@@ -48,18 +42,17 @@
             
                 <form id = "skjema">
                     <label for="navn"> Navn: </label><br>
-                    <input type="text" name="navn" id="navn" tabindex="1" required><br>
+                    <input type="text" name="navn" id="navn" required><br>
                     <label for="mail"> Mail: </label><br>
-                    <input type="text" name = "mail" id = "mail" tabindex="2" required><br>
+                    <input type="text" name = "mail" id = "mail" required><br>
                     <label for="søknad"> Søknad: </label><br>
-                    <textarea name = "søknad" id = "søknad" tabindex="3"> </textarea><br>
-                    <!--hvordan få denne knappen til å få stylingen til button?-->
+                    <textarea name = "søknad" id = "søknad" > </textarea><br>
                     <input type="submit"><br>
                 </form>
             
-                <!--foreløpig skjer det ingen ting når man trykker på send inn, endre til at man får opp en liten side med 
-                bekreftelse på at det har blitt sendt inn
-                Tror ikke tabindex funker-->
+                <!--det skjer det ingen ting når man trykker på send inn, annet enn at skjemaet forsvinner igjen. 
+                    Ville videre fikset at det dukket opp en melding om at skjemaet er sendt inn eller liknende.
+                -->
             </div>
 
         </div>
@@ -69,6 +62,10 @@
     <!--legger til info om en hund-->
     <script src="../JS/allDogs.js"></script>
 
+    <!--Bruker local storage for dogID, for å sende mellom Dogs.html og DogNPage.html. Kaller så på funksjonene 
+        under som ligger i allDogs.js med denne id-en for å sende info om hundene til diver på denne html siden
+        Brukt for å unngå repetativ kode
+    -->
     <script>
         const dogID = localStorage.getItem("dogID");
         createTopOfDogNPage(dogID);

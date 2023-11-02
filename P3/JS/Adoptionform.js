@@ -1,6 +1,7 @@
+//henter knappen med id adopsjonsknapp fra DogNPage.html
 const butn = document.getElementById('adopsjonsknapp');
 
-//knapp for å få opp skjemaet
+//legger til en eventListner og sier at funksjonen clickEventHandler skal kalles når man klikker på knappen
 butn.addEventListener('click', clickEventhandler);
 
 function clickEventhandler(){
