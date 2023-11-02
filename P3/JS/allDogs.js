@@ -45,6 +45,7 @@ function createDogBox() {
     const dogContainer = document.getElementById("dog-container");
 
     i = 0;
+    // oppretter hundebokser for hver hund i dogsData-arrayen
     dogsData.forEach((dog) => {
     
         const dogBox = document.createElement("div");
@@ -52,7 +53,7 @@ function createDogBox() {
         //gir de forskjelig id, kan vi bruke dette til å skille mellom hvilke hundeside vi skal linke til?
         dogBox.id = "dogNo" + i;
 
-
+        //henter data om hunden til dogbox og oppretter HTML-elementer 
         const img = document.createElement("img");
         img.src = dog.imageSrc;
         img.className = "dog-box-bilde";
@@ -70,13 +71,14 @@ function createDogBox() {
         const breedParagraph = document.createElement("p");
         breedParagraph.textContent = "Rase: " + dog.breed;
 
+        //legger til informasjon om hunden til dogBox
         dogBox.appendChild(img);
         dogBox.appendChild(h3);
         dogBox.appendChild(genderParagraph);
         dogBox.appendChild(ageParagraph);
         dogBox.appendChild(breedParagraph);
 
-        
+        //legger til doxBox i dogContainer
         dogContainer.appendChild(dogBox);
 
         i++;
