@@ -1,3 +1,5 @@
+
+/*Creates the footer that is used on all the pages*/
 function addFooter() {
   let divElement = document.getElementsByClassName("grid");
   var footerCode = `<img src="../images/Logo.png" class="grid-item-1" />
